@@ -1,15 +1,6 @@
-my_numbers = [2, 4]
-
-
-def avg(nums):
-    i = 0
-    leng = len(nums)
-
-    for num in nums:
-        i = i+num
-    average = i/leng
-    return average
-
-
-total = avg(my_numbers)
-print(total)
+lent = int(input('How many numbers you want to enter: '))
+total = 0
+for i in range(lent):
+    number = int(input('Enter number: '))
+    total = number + total
+print('Total Numbers is', total)
